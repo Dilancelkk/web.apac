@@ -21,6 +21,7 @@ public class ExampleSteps extends BaseSteps {
         loginBtn.click();
     }
 
+
     @Step("Enter TC and Password")
     public void enterCredentials() {
         WebElement tcField = Driver.webDriver.findElement(By.id("tridField"));
